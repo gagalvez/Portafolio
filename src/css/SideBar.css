@@ -1,0 +1,32 @@
+.side-bar {
+  background: rgb(22, 22, 22);
+  height: 100%;
+  width: 17%;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+.side-bar-photo {
+  display: flex;
+  justify-content: center;
+  padding-top: 100%;
+  clip-path: circle(7vw);
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+}
+
+.side-bar-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.5rem;
+  color: aliceblue;
+  text-align: center;
+}
+
+.side-bar-nav {
+  
+}
