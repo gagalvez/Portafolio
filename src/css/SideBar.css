@@ -11,7 +11,7 @@
   display: flex;
   justify-content: center;
   padding-top: 100%;
-  clip-path: circle(7vw);
+  clip-path: circle(5vw);
   background-color: rgb(255, 255, 255);
   width: 100%;
   height: auto;
@@ -22,11 +22,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 0.5rem;
   color: aliceblue;
   text-align: center;
 }
 
-.side-bar-nav {
-  
+.side-bar-info h1 {
+  font-size: clamp( 1rem, 3.5vw, 3.5vh);
+  margin-bottom: 1rem;
+}
+
+.side-bar-info p {
+  font-size: clamp( 0.5rem, 1.5vw, 1.5vh)
+}
+
+.side-bar-nav li {
+  text-align: center;
+  margin-top: 3rem;
 }

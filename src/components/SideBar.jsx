@@ -12,10 +12,12 @@ function Sidebar() {
       </div>
       <div className="side-bar-nav">
         <ul>
-          <li>asd</li>
-          <li>213</li>
-          <li>tasd</li>
-          <li>224</li>
+          <li>
+            <a href="linkedin.com/in/ggalvezv">LinkedIn</a>
+          </li>
+          <li>
+            <p>Descargar CV</p>
+          </li>
         </ul>
       </div>
     </div>
