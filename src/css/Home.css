@@ -5,6 +5,36 @@
     position: relative;
     background-color: #1e1e1efa;
     height: 100vh;
-    background: radial-gradient(at right bottom, rgba(1, 1, 1, 1.0) 20%, rgb(57, 0, 73));
-    
+    background: radial-gradient(at right bottom, rgba(1, 1, 1, 1.0) 20%, rgb(0, 135, 193));
+    display: flex;
+    gap: 50px;
+    overflow: hidden;
+}
+
+.info-box {
+    background-color: rgb(22, 22, 22);
+    border-radius: 50px;
+    border: 10px;
+    padding: 3rem;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    background-color: rgb(22, 22, 22);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.30);
+    max-width: 40%;
+}
+
+.info-box h1 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.info-box p {
+    font-size: 1.3rem;
+    word-break: break-word;
+
 }
