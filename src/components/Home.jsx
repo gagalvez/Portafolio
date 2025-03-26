@@ -1,4 +1,5 @@
 import "../css/Home.css";
+import Badges from "./Badges";
 
 function Home() {
   return (
@@ -11,6 +12,10 @@ function Home() {
           con facilidad a distintos entornos y colaboro eficazmente en equipos
           diversos.
         </p>
+      </div>
+
+      <div className="badge-box">
+          <Badges />
       </div>
     </div>
   );

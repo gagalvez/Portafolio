@@ -3,9 +3,9 @@ import { PiFileArchiveThin } from "react-icons/pi";
 import { CiLinkedin } from "react-icons/ci";
 import { VscGithubAlt } from "react-icons/vsc";
 import React from "react";
-import ButtonComponent from "./ButtonComponent";
+import ButonComponent from "./ButonComponent";
 
-const buttonProperties = [
+const butonProperties = [
   {
     id: "github",
     href: "https://github.com/gagalvez",
@@ -38,14 +38,14 @@ const Sidebar = () => (
     </div>
     <div className="side-bar-nav">
       <ul>
-        {buttonProperties.map(({ id, href, icon, text, download }) => (
+        {butonProperties.map(({ id, href, icon, text, download }) => (
           <li key={id}>
             {download ? (
               <a href={href} download={"Gabriel_Galvez_CV.pdf"}>
-                <ButtonComponent icon={icon} text={text} />
+                <ButonComponent icon={icon} text={text} />
               </a>
             ) : (
-              <ButtonComponent href={href} icon={icon} text={text} />
+              <ButonComponent href={href} icon={icon} text={text} />
             )}
           </li>
         ))}

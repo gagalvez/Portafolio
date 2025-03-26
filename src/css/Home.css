@@ -3,24 +3,23 @@
     width: 83%;
     left: 17%;
     position: relative;
-    background-color: #1e1e1efa;
-    overflow: hidden;
     background: radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%);
+    display: flex;
+    gap: 5rem;
+    padding: 5rem;
 }
 
 .info-box {
-    border-radius: 50px;
     border: 10px;
     padding: 3rem;
     width: fit-content;
     height: fit-content;
     position: relative;
-    left: 50px;
-    top: 50px;
     border: 1px solid rgba(195, 0, 255, 0.25);
     border-radius: 20px;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.30);
     max-width: 40%;
+    box-sizing: border-box;
 }
 
 .info-box h1 {
@@ -31,5 +30,12 @@
 .info-box p {
     font-size: 1.3rem;
     word-break: break-word;
+}
 
+.badge-box {
+    padding: 2rem;
+    border: 1px solid rgba(195, 0, 255, 0.25);
+    border-radius: 20px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.30);
+    max-height: fit-content;
 }
