@@ -1,11 +1,11 @@
 .side-bar {
-  background: rgb(22, 22, 22);
+  background: #232427;
   height: 100%;
   width: 17%;
   top: 0;
   left: 0;
   position: fixed;
-  border-right: 1.4px solid rgba(0, 195, 255, 0.25);
+  border-right: 1.4px solid rgba(195, 0, 255, 0.25);
 }
 
 .side-bar-photo {
@@ -37,7 +37,7 @@
 .side-bar-info h1 {
   font-size: clamp( 1rem, 3.5vw, 3.5vh);
   margin-bottom: 1rem;
-  color: rgba(0, 169, 241, 0.6)
+  color: #C0C0C0;
 }
 
 .side-bar-info p {
@@ -49,15 +49,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 1.5rem;
 }
 
 .side-bar-nav ul li {
   width: fit-content;
-  border: 1.4px solid rgba(0, 195, 255, 0.25);
   padding: 0.7rem;
   border-radius: 12px;
-  background-color: rgba(45, 46, 46, 0.25);
 }
 
 .side-bar-nav a {
@@ -75,9 +72,13 @@
   width: fit-content;
   font-size: 20px;
   font-weight: 500;
-  transition: all 0.3s ease-in-out;
+  padding: 1rem;
 }
 
 .side-bar-nav ul li a:hover {
-  background-color: rgba(0, 195, 255, 0.25);
+  color: rgb(117, 0, 153);
+}
+
+.side-bar-nav ul li a:hover .cv-icon-size {
+  fill: rgb(117, 0, 153);
 }
